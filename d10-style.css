@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "idroid";
+  src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+  /*margin-left: 15%;*/
+  font-family: calibri, sans-serif;
+  /*width: 70%;*/
+  align-items: center;
+  background-color: #84e1ad;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  height: 0%;
+  color: white;
+  text-align: center;
+  background-color: #1a5c38;
+  background-image: linear-gradient(to top, #1a5c38, #3ae285);
+  display: flexbox;
+  box-shadow: 0.5px 2px 2px 0px rgba(0, 0, 0, 0.373);
+}
+
+.h1-header {
+  padding: 2.5% 0% 0% 0%;
+  margin-top: 0%;
+  font-weight: 500;
+  margin-bottom: 0%;
+  font-size: 250%;
+  text-align: center;
+}
+
+.p-header {
+  width: 100%, center;
+  font-size: 18px;
+  padding: 1.5%;
+  display: inline-flex;
+  padding: 0%;
+  margin: 2% 35% 2% 35%;
+  text-align: center;
+}
+
+a.nav-header {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  display: box-flex;
+  margin: 0% 1% 0.3% 0%;
+}
+
+h2.fonte-indroid {
+  font-family: "idroid", sans-serif;
+  color: #1a5c38;
+  background-color: #84e1ad;
+  padding: 0px 0px 0px 4.5px;
+  width: 96.5%;
+  display: inline-flex;
+  background-image: linear-gradient(
+    to right,
+    #84e1ad,
+    rgba(255, 255, 255, 0.926)
+  );
+  margin: 0% 0% 0% 1.5%;
+}
+
+p {
+  margin: 2.5%;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  line-height: 1.5em;
+  display: flexbox;
+}
+
+strong {
+  color: #2f764f;
+  display: flexbox;
+  text-decoration: none;
+}
+
+.strong1 {
+  text-decoration: none;
+  color: #1a5c38;
+}
+
+.fonte-indroid {
+  font-family: "idroid", sans-serif;
+  color: #1a5c38;
+  display: inline-flex;
+}
+
+h1.fonte-indroid {
+  margin: 1.5% 0% 0% 2.5%;
+  padding: 0% 0% 0% 0%;
+}
+
+h1 {
+  display: inline-flex;
+}
+
+main {
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  display: inline;
+  text-decoration: none;
+}
+
+div.principal {
+  width: 70%;
+  background-color: white;
+  margin-left: 15%;
+  border-radius: 5px 5px 15px 15px;
+  box-shadow: 0.5px 3px 3px 3px rgba(0, 0, 0, 0.373);
+}
+
+nav {
+  display: box-flex;
+  margin: 0% 1% 0.3% 0%;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  padding: 0% 0% 0.5% 1%;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+img {
+  height: 70%;
+  width: 85%;
+  margin: 0% 7.5%;
+}
+
+.rodape {
+  height: 2%;
+  width: 2%;
+  padding: 0%;
+  margin: 0%;
+}
+
+p.imagem-footer {
+  background-color: #1a5c38;
+  color: white;
+  text-align: center;
+  padding: 0.0005%;
+  margin: 0% 0% 0% 0%;
+  font-size: 14px;
+}
+
+section {
+  background-color: #b6fed5;
+  width: 95%;
+  height: 50%;
+  margin: 0% 2.4%;
+  padding: 2% 0 0.5% 0%;
+  border-radius: 0px 0px 15px 15px;
+  list-style-type: none;
+  display: inline-block;
+  box-shadow: 0.5px 3px 3px 0px rgba(0, 0, 0, 0.373);
+}
+
+#caixa-a {
+  height: 125px;
+  width: 500px;
+  margin-left: 0% 0% 0% 0%;
+}
+
+#caixa-b {
+  height: 125px;
+  width: 350px;
+  margin-left: 0% 0% 0% 60%;
+}
+
+div#caixa-geral {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  margin: 0% 0% 2% 5%;
+  list-style-type: "\2713                    ";
+}
+
+#caixa-c {
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+
+#caixa-d {
+  background-color: #56b480;
+  margin: 0% 2.4%;
+  padding: 1.5% 0% 1.5% 1.5%;
+  width: 93.5%;
+  border-radius: 15px 15px 0px 0px;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+  box-shadow: 0.75px 3px 3px 0.75px rgba(0, 0, 0, 0.373);
+}
+
+#s1 {
+  text-decoration: none;
+  color: #2f764f;
+  font-weight: 600;
+}
+
+#s2 {
+  text-decoration: none;
+  color: #2f764f;
+  font-weight: 600;
+}
+
+#s3 {
+  text-decoration: none;
+  color: #2f764f;
+  font-weight: 600;
+}
+
+#s4 {
+  text-decoration: none;
+  color: #2f764f;
+  font-weight: 600;
+}
+
+#s5 {
+  text-decoration: none;
+  color: #2f764f;
+  font-weight: 600;
+}
+
+/*#a1 {
+  background-color: #1a5c38;
+  width: 70%;
+  padding: 2%;
+}*/
+
+#img1 {
+  width: 85%;
+  padding: 3% 0.15%;
+  border-bottom: 2% white;
+}
+
+#div1 {
+  background-color: #1a5c38;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  height: 100%;
+}

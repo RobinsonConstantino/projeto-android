@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de Responsividade</title>
+
+    <style>
+      body {
+        background-color: tomato;
+      }
+
+      main {
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        /*width: 800px;  não-responsivo*/
+
+        min-width: 260px; /*responsivo*/
+        max-width: 800px; /*responsivo*/
+        margin: auto;
+      }
+
+      img {
+        width: 100%; /*responsivo*/
+      }
+
+      p {
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Testando Responsividade</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, culpa
+        quidem exercitationem sed dicta aut facere, odit commodi neque id
+        sapiente distinctio numquam ipsam. Commodi iusto dolores molestiae
+        quibusdam exercitationem. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. A voluptate accusamus, aut rem labore incidunt
+        consequuntur quam consectetur veniam ea quidem error id facilis!
+        Repellendus ab libero perspiciatis cum dolorum? Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Voluptas praesentium neque nemo,
+        voluptate odit magnam tenetur commodi fugit delectus eos perferendis
+        excepturi vitae sed tempore molestias nostrum rem eligendi alias. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iste
+        repellendus corrupti unde dolores! Reiciendis ut placeat corrupti
+        consequuntur esse. Aperiam voluptate dolores libero fugiat facere
+        molestias delectus labore rerum. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Sapiente amet quam aperiam, voluptatum hic qui
+        mollitia vel excepturi, iusto consequatur nisi veritatis illum totam
+        eaque deleniti necessitatibus? Delectus, animi voluptatum.
+      </p>
+      <!--responsivo-->
+      <picture>
+        <source
+          media="(max-width: 600px)"
+          srcset="../imagens/irina-blok-pq.jpg" />
+        <img src="../imagens/irina-blok.jpg" alt="Irina Blok"
+      /></picture>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, culpa
+        quidem exercitationem sed dicta aut facere, odit commodi neque id
+        sapiente distinctio numquam ipsam. Commodi iusto dolores molestiae
+        quibusdam exercitationem. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. A voluptate accusamus, aut rem labore incidunt
+        consequuntur quam consectetur veniam ea quidem error id facilis!
+        Repellendus ab libero perspiciatis cum dolorum? Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Voluptas praesentium neque nemo,
+        voluptate odit magnam tenetur commodi fugit delectus eos perferendis
+        excepturi vitae sed tempore molestias nostrum rem eligendi alias. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iste
+        repellendus corrupti unde dolores! Reiciendis ut placeat corrupti
+        consequuntur esse. Aperiam voluptate dolores libero fugiat facere
+        molestias delectus labore rerum. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Sapiente amet quam aperiam, voluptatum hic qui
+        mollitia vel excepturi, iusto consequatur nisi veritatis illum totam
+        eaque deleniti necessitatibus? Delectus, animi voluptatum.
+      </p>
+    </main>
+  </body>
+</html>
